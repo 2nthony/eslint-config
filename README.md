@@ -2,6 +2,8 @@
 
 [![version](https://img.shields.io/npm/v/@2nthony/eslint-config?label=&color=29BC9B)](https://npm.im/@2nthony/eslint-config) [![downloads](https://img.shields.io/npm/dm/@2nthony/eslint-config?label=&color=29BC9B)](https://npm.im/@2nthony/eslint-config)
 
+**Extended from [@antfu/eslint-config](https://github.com/antfu/eslint-config), go to see details**.
+
 ## Usage
 
 ### Install
