@@ -1,11 +1,11 @@
 module.exports = {
-  extends: "@antfu",
+  extends: '@antfu',
   overrides: [
     {
-      files: ["*.vue"],
+      files: ['*.vue'],
       rules: {
-        "vue/prefer-separate-static-class": "off",
+        'vue/prefer-separate-static-class': 'off',
       },
     },
   ],
-};
+}

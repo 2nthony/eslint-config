@@ -2,7 +2,7 @@
   "name": "@2nthony/eslint-config",
   "version": "0.0.0",
   "funding": "https://github.com/sponsors/2nthony",
-  "description": "My awesome typescript library",
+  "description": "2nthony ESLint config presets, extended from @antfu/eslint-config",
   "repository": "https://github.com/2nthony/eslint-config",
   "author": "2nthony",
   "license": "MIT",
@@ -20,6 +20,7 @@
     "@antfu/eslint-config": "*"
   },
   "devDependencies": {
+    "@2nthony/eslint-config": "*",
     "eslint": "^8.35.0"
   }
 }
