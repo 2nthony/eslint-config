@@ -1,11 +1,7 @@
 module.exports = {
   extends: '@antfu',
-  overrides: [
-    {
-      files: ['*.vue'],
-      rules: {
-        'vue/prefer-separate-static-class': 'off',
-      },
-    },
-  ],
+  rules: {
+    'curly': 'error',
+    'vue/prefer-separate-static-class': 'off',
+  },
 }
