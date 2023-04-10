@@ -3,5 +3,8 @@ module.exports = {
   rules: {
     'curly': ['error', 'all'],
     'vue/prefer-separate-static-class': 'off',
+
+    // antfu
+    'antfu/if-newline': 'off',
   },
 }
