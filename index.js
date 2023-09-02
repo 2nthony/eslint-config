@@ -14,6 +14,7 @@ module.exports = {
   ].filter(Boolean),
 
   rules: {
+    'curly': ['error', 'all'],
     'newline-after-var': ['error', 'always'],
     'brace-style': ['error', '1tbs', { allowSingleLine: false }],
   },
