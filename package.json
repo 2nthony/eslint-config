@@ -17,7 +17,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "*"
+    "@antfu/eslint-config": "*",
+    "local-pkg": "^0.4.3"
   },
   "devDependencies": {
     "@2nthony/eslint-config": "*",

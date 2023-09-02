@@ -1,9 +1,16 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@antfu/eslint-config':
     specifier: '*'
     version: 0.35.3(eslint@8.35.0)(typescript@5.0.4)
+  local-pkg:
+    specifier: ^0.4.3
+    version: 0.4.3
 
 devDependencies:
   '@2nthony/eslint-config':
