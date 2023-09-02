@@ -1,11 +1,13 @@
 const { isPackageExists } = require('local-pkg')
 
 const TS = isPackageExists('typescript')
+const REACT = isPackageExists('react')
 
 module.exports = {
   extends: [
     '@antfu',
     TS && './typescript',
+    REACT && './react',
   ].filter(Boolean),
 
   rules: {

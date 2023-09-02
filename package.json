@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "*",
+    "eslint-plugin-react": "*",
     "local-pkg": "^0.4.3"
   },
   "devDependencies": {
