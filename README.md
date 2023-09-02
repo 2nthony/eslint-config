@@ -20,6 +20,20 @@ npm i -D eslint @2nthony/eslint-config
 }
 ```
 
+## Rules(diffs to antfu)
+
+```js
+// error
+if (foo) bar()
+if (foo)
+  bar()
+
+// correct
+if (foo) {
+  bar()
+}
+```
+
 ## Sponsors
 
 [![sponsors](https://cdn.jsdelivr.net/gh/2nthony/sponsors-image/sponsors.svg)](https://github.com/sponsors/2nthony)
