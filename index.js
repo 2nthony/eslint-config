@@ -6,8 +6,8 @@ const REACT = isPackageExists('react')
 module.exports = {
   extends: [
     '@antfu',
-    TS && './typescript',
-    REACT && './react',
+    TS && './rules/typescript',
+    REACT && './rules/react',
   ].filter(Boolean),
 
   rules: {

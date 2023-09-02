@@ -1,18 +1,19 @@
 {
   "name": "@2nthony/eslint-config",
   "version": "0.0.0",
-  "funding": "https://github.com/sponsors/2nthony",
   "description": "2nthony ESLint config presets, extended from @antfu/eslint-config",
-  "repository": "https://github.com/2nthony/eslint-config",
   "author": "2nthony",
   "license": "MIT",
+  "funding": "https://github.com/sponsors/2nthony",
+  "repository": "https://github.com/2nthony/eslint-config",
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "index.js"
-  ],
   "main": "index.js",
+  "files": [
+    "index.js",
+    "rules/*.js"
+  ],
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
