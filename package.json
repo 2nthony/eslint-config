@@ -11,11 +11,14 @@
   },
   "main": "index.js",
   "files": [
-    "index.js",
-    "rules/*.js"
+    "configs/*.js",
+    "index.js"
   ],
+  "scripts": {
+    "lint": "eslint ."
+  },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=8"
   },
   "dependencies": {
     "@antfu/eslint-config": "*",
@@ -24,6 +27,7 @@
   },
   "devDependencies": {
     "@2nthony/eslint-config": "*",
-    "eslint": "^8.35.0"
+    "eslint": "^8.50.0",
+    "eslint-define-config": "^1.23.0"
   }
 }

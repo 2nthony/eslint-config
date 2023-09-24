@@ -2,15 +2,15 @@
   "compilerOptions": {
     "target": "ES2015",
     "module": "esnext",
-    "strict": true,
-    "esModuleInterop": true,
     "moduleResolution": "node",
-    "skipLibCheck": true,
-    "noUnusedLocals": true,
-    "noImplicitAny": true,
+    "resolveJsonModule": true,
     "allowJs": true,
-    "noEmit": true,
     "outDir": "dist",
-    "resolveJsonModule": true
+    "noEmit": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true
   }
 }

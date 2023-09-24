@@ -1,21 +1,20 @@
+const { default: antfu } = require('@antfu/eslint-config')
 const { isPackageExists } = require('local-pkg')
 
 const TS = isPackageExists('typescript')
 const REACT = isPackageExists('react')
 const VUE = isPackageExists('vue')
 
-module.exports = {
-  extends: [
-    '@antfu',
-    './rules/antfu',
-    TS && './rules/typescript',
-    REACT && './rules/react',
-    VUE && './rules/vue',
-  ].filter(Boolean),
-
-  rules: {
-    'curly': ['error', 'all'],
-    'newline-after-var': ['error', 'always'],
-    'brace-style': ['error', '1tbs', { allowSingleLine: false }],
-  },
-}
+/**
+ * @typedef {import('eslint-define-config').FlatESLintConfigItem} FlatESLintConfigItem
+ * @type {(configs: FlatESLintConfigItem[]) => FlatESLintConfigItem[]}
+ */
+exports.configs = userConfigs => antfu(
+  require('./configs/antfu'),
+  require('./configs/base'),
+  require('./configs/plugins/unused-imports'),
+  TS && require('./configs/typescript'),
+  REACT && require('./configs/react'),
+  VUE && require('./configs/vue'),
+  userConfigs,
+).filter(Boolean)
