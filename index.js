@@ -7,9 +7,9 @@ const VUE = isPackageExists('vue')
 
 /**
  * @typedef {import('eslint-define-config').FlatESLintConfigItem} FlatESLintConfigItem
- * @type {(configs: FlatESLintConfigItem[]) => FlatESLintConfigItem[]}
+ * @type {(userConfigs: FlatESLintConfigItem[]) => FlatESLintConfigItem[]}
  */
-exports.configs = userConfigs => antfu(
+exports._2nthony = userConfigs => antfu(
   require('./configs/antfu'),
   require('./configs/base'),
   require('./configs/plugins/unused-imports'),

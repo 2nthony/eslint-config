@@ -4,6 +4,8 @@
 
 **Extended from [@antfu/eslint-config](https://github.com/antfu/eslint-config), go to see details**.
 
+[Legacy Version](https://github.com/2nthony/eslint-config/tree/v1.1.2)
+
 ## Usage
 
 ### Install
@@ -12,11 +14,20 @@
 npm i -D eslint @2nthony/eslint-config
 ```
 
-### `.eslintrc`
+### config file
+
+```js
+// eslint.config.js
+import { _2nthony } from '@2nthony/eslint-config'
+
+export default _2nthony()
+```
+
+### VSCode
 
 ```json
 {
-  "extends": "@2nthony"
+  "eslint.experimental.useFlatConfig": true
 }
 ```
 
