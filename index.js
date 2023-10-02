@@ -1,9 +1,5 @@
 const { default: antfu } = require('@antfu/eslint-config')
-const { isPackageExists } = require('local-pkg')
-
-const TS = isPackageExists('typescript')
-const REACT = isPackageExists('react')
-const VUE = isPackageExists('vue')
+const { VUE, REACT, TS } = require('./configs/_shared')
 
 /**
  * @typedef {import('eslint-define-config').FlatESLintConfigItem} FlatESLintConfigItem

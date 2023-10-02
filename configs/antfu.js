@@ -1,7 +1,15 @@
 // https://github.com/antfu/eslint-config
 
-module.exports = {
-  rules: {
-    'antfu/if-newline': 'off',
+const { VUE } = require('./_shared')
+
+/** @type {[import("@antfu/eslint-config").OptionsConfig, import('@antfu/eslint-config').FlatESLintConfigItem]} */
+module.exports = [
+  {
+    vue: VUE,
   },
-}
+  {
+    rules: {
+      'antfu/if-newline': 'off',
+    },
+  },
+]
