@@ -10,6 +10,7 @@ module.exports = [
   {
     rules: {
       'antfu/if-newline': 'off',
+      'antfu/consistent-list-newline': 'off',
     },
   },
 ]

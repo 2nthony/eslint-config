@@ -1,11 +1,19 @@
 const username = 'John'
+const persons = ['John', 'Doe']
 
 main()
 
 function _Comp() {
+  if (username) {
+    username
+  }
+  else {
+    username.slice(0)
+  }
   return (
     <div className="prose">
-      <div>component</div>
+      {persons.map((person, i) => (<div key={i}>{person}</div>
+      ))}
     </div>
   )
 }
