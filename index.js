@@ -6,7 +6,7 @@ const { VUE, REACT, TS } = require('./configs/_shared')
  * @type {(...userConfigs: FlatESLintConfigItem[]) => FlatESLintConfigItem[]}
  */
 exports._2nthony = (...userConfigs) => antfu(
-  require('./configs/antfu'),
+  ...require('./configs/antfu'),
   require('./configs/base'),
   require('./configs/plugins/unused-imports'),
   TS && require('./configs/typescript'),

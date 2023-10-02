@@ -5,14 +5,15 @@ main()
 
 function _Comp() {
   if (username) {
-    username
+    return username
   }
   else {
     username.slice(0)
   }
   return (
     <div className="prose">
-      {persons.map((person, i) => (<div key={i}>{person}</div>
+      {persons.map((person, i) => (
+        <div key={i}>{person}</div>
       ))}
     </div>
   )
