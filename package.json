@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@2nthony/eslint-config": "*",
-    "eslint": "^8.54.0",
+    "eslint": "^9.0.0",
     "eslint-define-config": "^1.24.1",
     "react": "^18.2.0"
   }
