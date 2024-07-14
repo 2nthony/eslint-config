@@ -13,6 +13,6 @@ exports._2nthony = (...userConfigs) => antfu(
     TS && require('./configs/typescript'),
     REACT && require('./configs/react'),
     VUE && require('./configs/vue'),
-    userConfigs,
+    ...userConfigs,
   ].filter(Boolean),
 )
