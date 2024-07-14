@@ -26,11 +26,7 @@ module.exports = [
       ],
       'react/jsx-props-no-multi-spaces': 2,
       'react/jsx-tag-spacing': [2, { beforeSelfClosing: 'always' }],
-      'react/jsx-indent': [
-        2,
-        2,
-        { checkAttributes: true, indentLogicalExpressions: true },
-      ],
+      'react/jsx-indent': 0,
       'react/jsx-indent-props': [
         2,
         { indentMode: 2, ignoreTernaryOperator: true },
