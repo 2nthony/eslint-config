@@ -23,7 +23,7 @@
   "dependencies": {
     "@antfu/eslint-config": "latest",
     "eslint-plugin-react": "latest",
-    "local-pkg": "^0.5.0"
+    "local-pkg": "^1.0.0"
   },
   "devDependencies": {
     "@2nthony/eslint-config": "*",
